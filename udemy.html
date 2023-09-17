@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAOIAM Learning Services </title>
+    <style>
+     
+     body {
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+}
+    
+body, ul {
+    margin: 3;
+    padding: 3;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    padding-top: 1%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20 auto;
+    padding: 0 20px;
+    padding-left: 20%;
+}
+
+.course-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.course {
+    width: calc(33.33% - 20px);
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.course img {
+    max-width: 100%;
+}
+    </style>
+</head>
+<body background="image\bg3.jpeg">
+    <header>
+        <nav>
+            <div class="logo">BAOIAM</div>
+            <ul>
+                <li><a href="Courses.html">Courses</a></li>
+                <li><a href="instructors.html">Instructors</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="query.html">Ask Query?</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="course-list">
+            <div class="course">
+                <img src="image\C_Logo.png" alt="Course 1">
+                <h2>Course Title 1</h2>
+                <p>Instructor: Saurabh Shukla</p>
+                <p>Price: $99.99</p>
+                <a href="https://ineuron.ai/course/C-language-for-Absolute-Beginners?source=course_listing_page">Enroll Now</a>
+            </div>
+
+            <div class="course">
+                <img src="image\java-logo-transparent-free-png.webp" alt="Course 2">
+                <h2>Course Title 2</h2>
+                <p>Instructor: Apna College</p>
+                <p>Price: $149.99</p>
+                <a href="https://www.youtube.com/playlist?list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop">Enroll Now</a>
+            </div>
+
+             <div class="course">
+                <img src="image\PHP-logo.svg.png" alt="Course 3">
+                <h2>Course Title 2</h2>
+                <p>Instructor: Coursera</p>
+                <p>Price: $149.99</p>
+                <a href="https://www.coursera.org/learn/web-applications-php">Enroll Now</a>
+            </div>
+
+
+            <div class="course">
+                <img src="image\Python-Symbol.png" alt="Course 4">
+                <h2>Course Title 2</h2>
+                <p>Instructor: Saurabh Shukla</p>
+                <p>Price: $149.99</p>
+                <a href="https://ineuron.ai/category/PYTHON">Enroll Now</a>
+            </div>
+
+
+
+            <!-- Add more course listings here -->
+        </section>
+    </main>
+
+</body>
+</html>
